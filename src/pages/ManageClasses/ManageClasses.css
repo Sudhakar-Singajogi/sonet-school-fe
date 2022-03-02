@@ -1,0 +1,241 @@
+.manageStudents {
+    flex: 4;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.success {
+    color: #32a932
+}
+
+.boxcard {
+    padding: 0px 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    display: flex;
+}
+
+.cardBox {
+    padding-right: 0px;
+    width: 50%;
+}
+
+.verticalDivider {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    border-radius: 1;
+}
+
+.controlButtonsDiv {
+    display: flex;
+
+}
+
+.featHeading {
+    flex: 3;
+    padding: 10px;
+}
+
+.manageClass {
+    flex: 1;
+    padding: 10px;
+}
+
+.controlButtons {
+    cursor: pointer;
+    color: red;
+}
+
+.controlButtonEdit {
+    cursor: pointer;
+    color: #1976d2
+}
+
+.controlButtonOff {
+    cursor: pointer;
+}
+
+.controlButtonCheck {
+    cursor: pointer;
+    color: rgb(50, 169, 50);
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.controlButtonCheckDisable {
+    color: rgb(88, 88, 88);
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.pl10 {
+    padding-left: 10px;
+    ;
+    margin-bottom: 0px;
+}
+
+.sectionLabel {
+    margin-top: 10px;
+    padding-bottom: 10px
+}
+
+.labelControls {
+    background-color: #f6f5f5;
+}
+
+.sectionName {
+    margin-right: 50px
+}
+
+.fullWidth {
+    display: flex;
+    width: 100%
+}
+
+.left50 {
+    flex: 8
+}
+
+.right50 {
+    flex: 1
+}
+
+.cardFooter {
+    width: 100%;
+    background-color: #f6f5f5;
+    height: 45.5px;
+    text-align: right;
+    margin-right: 10px
+}
+
+.cardFooterLeft {
+    float: left;
+    width: 15%;
+    margin-left: 1px;
+}
+
+.cardFooterCenter {
+    float: left;
+    margin-left: 15px;
+    width: 34%;
+    justify-content: center;
+}
+
+.cardFooterRight {
+    float: right;
+    width: 45%;
+}
+
+.cardFooterRight .MuiTypography-root {
+    cursor: pointer;
+}
+
+.cardFooterCenter .MuiSvgIcon-root {
+    margin-top: 15px;
+    margin-left: 10px
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.cardFooterLeft .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.cardFooterRight .MuiBox-root {
+    background-color: #f6f5f5;
+}
+
+.spanAddbtnLabel {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+
+#add-new-class .assign-footer {
+    padding-top: 15px;
+    padding-bottom: 0px;
+    text-align: right;
+}
+
+.mlf5 {
+    margin-left: 5px !important;
+}
+
+.mrt5 {
+    margin-right: 5px !important;
+}
+.customClose_modal {
+    position: absolute;
+    right:0px;
+    top:5px
+}
+
+.cancelBtn {
+    border: 1px solid #8c8c8c !important;
+    background: #eee !important;
+    color: #8c8c8c !important;
+}
+
+.cancelBtn:hover{
+    color: #4e4d4d !important;
+}
+
+
+
+.customClose_modal svg{
+    color: #8c8c8c !important;
+    cursor: pointer;
+}
+
+.customClose_modal svg:hover{
+    color: #4e4d4d !important;
+}
+
+#assignsection-card {
+    padding: 0px !important;
+}
+
+#add-section-card .MuiCardHeader-title, #sections-card .MuiCardHeader-title {
+    font-weight: 600!important;
+}
+
+.outer-card {
+    border-radius: 0px !important;
+    box-shadow:0px 0px !important;
+}
+
+.outer-card .css-46bh2p-MuiCardContent-root:last-child {
+    padding-bottom: 10px !important;
+}
+
+.outer-card .css-46bh2p-MuiCardContent-root{
+    padding: 10px !important
+}
+
+.sectionItems .css-qyxyi3-MuiButtonBase-root-MuiListItem-root {
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+}
